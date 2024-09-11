@@ -1,0 +1,9 @@
+@import "./tailwind";
+
+body {
+  background: darkblue;
+
+  @media (width >=theme(--breakpoint-test)) {
+    background: darkred;
+  }
+}

@@ -1,0 +1,7 @@
+.test {
+  background: darkgoldenrod;
+
+  @media (width >=theme(--breakpoint-test)) {
+    background: darkgreen;
+  }
+}
