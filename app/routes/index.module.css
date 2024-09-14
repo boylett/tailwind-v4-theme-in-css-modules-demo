@@ -1,5 +1,11 @@
+@import "../tailwind.css";
+
 .test {
   background: darkgoldenrod;
+
+  @media (width >= theme(--breakpoint-test)) {
+    background: darkgreen;
+  }
 
   @media (width >=theme(--breakpoint-test)) {
     background: darkgreen;
